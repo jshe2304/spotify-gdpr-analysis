@@ -9,6 +9,9 @@ description = "Analysis and visualization suite for Spotify GDPR data."
 readme = "README.md"
 requires-python = ">=3.9"
 
+[project.scripts]
+spotify-gdpr-report = "spotify_gdpr_analysis.visualize.cli:main"
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 
